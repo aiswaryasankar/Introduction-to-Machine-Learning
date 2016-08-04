@@ -12,4 +12,11 @@ Week 2: Logistic Regression
   unconstrained function.  For the non-linear decision boundary the function "mapFeature.m" was written to create 28 
   polynomial features to fit the non-linear decision boundary.
   
-Week 3: 
+Week 3: Multi-class classification & Neural Networks
+
+  Used logistic regression and neural networks to classify hand-written digits
+  
+  Data used was 5000 images of 20x20 pixels. Wrote 10 separate one-vs-all classifiers.  Added regularization to all 
+  terms.  Computed vector of all probabilities and chose the numeral with highest probability.  Achieved 94.9% 
+  accuracy.  Used an already trained neural network to predict digit from the same dataset. Computed h(x(i)) for 
+  each example i.  Performed this computation at each level of the neural network.
